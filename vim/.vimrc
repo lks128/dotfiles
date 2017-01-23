@@ -23,7 +23,7 @@ nmap <leader>c <Plug>SlimeParagraphSend
 
 " Emmet settings
 let g:user_emmet_install_global = 0
-autocmd FileType html,css :nmap <leader>e :call emmet#expandAbbr(3, "")<CR>
+autocmd FileType html,css :nmap <leader>e :call emmet#expandAbbr(3, "")<CR>i
 
 " convert tab to spaces
 set expandtab
