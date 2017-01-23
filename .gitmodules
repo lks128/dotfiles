@@ -4,3 +4,6 @@
 [submodule "vim/.vim/bundle/vim-slime"]
 	path = vim/.vim/bundle/vim-slime
 	url = https://github.com/jpalardy/vim-slime.git
+[submodule "vim/.vim/bundle/emmet-vim"]
+	path = vim/.vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git

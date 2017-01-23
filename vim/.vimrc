@@ -21,6 +21,10 @@ let g:slime_target = "tmux"
 xmap <leader>c <Plug>SlimeRegionSend
 nmap <leader>c <Plug>SlimeParagraphSend
 
-" convert tabs to spaces
+" Emmet settings
+let g:user_emmet_install_global = 0
+autocmd FileType html,css :nmap <leader>e :call emmet#expandAbbr(3, "")<CR>
+
+" convert tab to spaces
 set expandtab
 set ts=2 sw=2
