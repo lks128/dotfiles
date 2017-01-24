@@ -7,3 +7,9 @@
 [submodule "vim/.vim/bundle/emmet-vim"]
 	path = vim/.vim/bundle/emmet-vim
 	url = https://github.com/mattn/emmet-vim.git
+[submodule "vim/.vim/bundle/vim-flow"]
+	path = vim/.vim/bundle/vim-flow
+	url = https://github.com/flowtype/vim-flow.git
+[submodule "vim/.vim/bundle/neocomplete"]
+	path = vim/.vim/bundle/neocomplete
+	url = https://github.com/Shougo/neocomplete.vim.git

@@ -25,6 +25,15 @@ nmap <leader>c <Plug>SlimeParagraphSend
 let g:user_emmet_install_global = 0
 autocmd FileType html,css :nmap <leader>e :call emmet#expandAbbr(3, "")<CR>i
 
+" flow settings
+
+let g:flow#enable = 0
+
+" neocomplete
+
+let g:neocomplete#enable_at_startup = 1
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+
 " convert tab to spaces
 set expandtab
 set ts=2 sw=2
