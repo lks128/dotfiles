@@ -37,3 +37,4 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 " convert tab to spaces
 set expandtab
 set ts=2 sw=2
+set backupcopy=yes

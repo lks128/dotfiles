@@ -13,3 +13,12 @@
 [submodule "vim/.vim/bundle/neocomplete"]
 	path = vim/.vim/bundle/neocomplete
 	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule "ruby/rbenv"]
+	path = ruby/rbenv
+	url = https://github.com/rbenv/rbenv.git
+[submodule "ruby/rbenv-plugins/ruby-build"]
+	path = ruby/rbenv-plugins/ruby-build
+	url = https://github.com/rbenv/ruby-build.git
+[submodule "ruby/rbenv-plugins/bundler"]
+	path = ruby/rbenv-plugins/bundler
+	url = https://github.com/carsomyr/rbenv-bundler.git
